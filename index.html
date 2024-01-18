@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator menghitung Luas dan Keliling Persegi</h1>
+        <h4>Welcome to katik menghitung luas dan keliling persegi</h4>
+        <p>Web ini untuk mini project Revou menghitung Luas dan Keliling Persegi</p>
+    </header>
+    <p>Rumus luas persegi</p>
+    <h3>L = SxS</h3>
+    <p>Di mana:</p>
+    <p>L=Luas</p>
+    <p>S=Sisi</p>
+    <footer>
+        <img src="https://cdn0-production-images-kly.akamaized.net/jF2EgeMGHuU5myQpSw7c56ifwQg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3409130/original/098589600_1616496130-persegi.jpg"
+        width="50%">
+        <h1>Luas Persegi</h1>
+        <div class="InputSection">
+            <label for="squareSide" id="BlSquareSide">Hitung luas persegi</label>
+            <input type="number" id="squareSide1">
+        </div>
+        <div class="buttons">
+            <button id="btnHitung" onclick="hitungLuas();">hitung</button>
+            <button id="resetButton" onclick="resetLuas();">reset</button>
+        </div>
+        <div class="InputSection" id="RumusLuas"></div>
+        <div class="InputSection" id="MasukanLuas"></div>
+        <div class="InputSection" id="HasilLuas"></div>
+    </footer>
+    <footer>
+        <img src="https://cdn0-production-images-kly.akamaized.net/jF2EgeMGHuU5myQpSw7c56ifwQg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3409130/original/098589600_1616496130-persegi.jpg"
+        width="50%">
+    <p>Rumus keliling persegi</p>
+    <h3>k = 4xS</h3>
+    <p>Di mana:</p>
+    <p>k=keliling</p>
+    <p>S=Sisi</p>
+    <h1>keliling Persegi</h1>
+    <div class="InputSection">
+        <label for="squareSide" id="BlSquareSide">Hitung keliling persegi</label>
+        <input type="number" id="squareSide2">
+    </div>
+    <div>
+        <div class="buttons">
+            <button id="countButton" onclick="hitungKeliling();">hitung</button>
+            <button id="resetButton" onclick="resetKeliling();">reset</button>
+    </div>
+    <div class="InputSection" id="RumusKeliling"></div>
+    <div class="InputSection" id="MasukanKeliling"></div>
+    <div class="InputSection" id="HasilKeliling"></div>
+    </footer>
+    
+</body>
+</html>
